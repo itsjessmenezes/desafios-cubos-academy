@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.img-side,
+.text-side {
+  width: 50%;
+}
+
+.img-side img {
+  width: 33.75rem;
+  height: 500px;
+}
+
+.text-side {
+  width: 430px;
+}
+
+.divisor-container {
+  background: #33323d;
+  height: 1px;
+  margin: auto;
+  opacity: 0.15;
+}
+
+.text-side h2 {
+  margin-top: 6.43rem;
+}
+
+.text-side p {
+  margin-bottom: 3.37rem;
+  color: #33323d;
+  opacity: 0.8;
+}
+
+.btn-view-project {
+  margin-bottom: 6.43rem;
+}

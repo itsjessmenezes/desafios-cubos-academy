@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  margin-top: -50px;
+  margin-bottom: 150px;
+  align-items: flex-end;
+}
+
+.img-hero {
+  position: relative;
+  width: 100%;
+}
+
+.info-hero {
+  background-color: #ffffff;
+  position: absolute;
+  display: flex;
+  width: 27.8rem;
+  height: 357px;
+  padding: 53px 27px 0 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-hero-h1 {
+  padding-left: 1.68rem;
+  /* margin-bottom: 3.31rem; */
+}
+
+.btn-about {
+  display: flex;
+}
+
+.btn-arrow-down {
+  background: rgba(10, 7, 7, 0.1);
+  padding: 18px 16px;
+}
+
+.btn-about-me {
+  margin: auto;
+}

@@ -1,0 +1,50 @@
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-info-side {
+  width: 21.87rem;
+}
+
+.divisor-info-side {
+  background: #33323d;
+  height: 1px;
+  margin: auto;
+  opacity: 0.15;
+}
+
+.title {
+  margin-top: 48px;
+}
+
+.description {
+  margin-bottom: 53px;
+}
+
+.right-info-side {
+  width: 39.68rem;
+}
+
+.info-description {
+  color: #5fb4a2;
+  font-weight: bold;
+}
+
+.btn-visit {
+  margin-bottom: 48px;
+}
+
+h3.project,
+h3.preview {
+  margin-bottom: 28px;
+}
+
+p.project {
+  margin-bottom: 40px;
+}
+
+.previews img {
+  width: 100%;
+  margin-bottom: 32px;
+}

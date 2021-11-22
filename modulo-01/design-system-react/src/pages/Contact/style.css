@@ -1,0 +1,82 @@
+.page-contact {
+  padding: 5.33rem 13.75rem;
+}
+
+.divisor-contact {
+  background: #33323d;
+  width: 100%;
+  height: 1px;
+  margin: auto;
+  opacity: 0.15;
+}
+
+.contact-up,
+.contact-down {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-contact {
+  display: flex;
+  margin-top: 48px;
+  justify-content: space-between;
+}
+
+.info-contact p {
+  width: 635px;
+}
+
+.social-media {
+  margin: auto;
+  margin-top: 54px;
+  margin-bottom: 48px;
+}
+
+.social-media img {
+  margin-right: 16px;
+}
+
+.social-media:hover {
+  cursor: pointer;
+}
+
+.section-contact {
+  display: flex;
+  margin-top: 47px;
+}
+
+.input-contact,
+.text-contact {
+  width: 50%;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+input {
+  all: unset;
+  box-sizing: border-box;
+
+  background-color: var(--light-grey);
+  width: 635px;
+  height: 48px;
+  margin-bottom: 24px;
+  padding: 20px;
+}
+
+.mensagem {
+  height: 96px;
+}
+
+.btn-send-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 109px;
+}

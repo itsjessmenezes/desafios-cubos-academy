@@ -1,0 +1,12 @@
+.page {
+  padding: 5.33rem 13.75rem;
+}
+
+.img-cover {
+  width: 100%;
+  margin-bottom: 7.18rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}

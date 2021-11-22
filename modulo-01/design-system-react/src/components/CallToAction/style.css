@@ -1,0 +1,10 @@
+.cta {
+  display: flex;
+  margin-bottom: 9.37rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.interested {
+  width: 22.93rem;
+}

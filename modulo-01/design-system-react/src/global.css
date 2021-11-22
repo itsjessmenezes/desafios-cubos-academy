@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: #33323d;
+
+  --slightly-cyan: #5fb4a2;
+  --dark-blue: #203a4c;
+  --grayish-dark-blue: #33323d;
+
+  --very-light-grey: #fafafa;
+  --light-grey: #eaeaeb;
+}
+
+.h1,
+.h2,
+.h3 {
+  margin: 0;
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+.h1 {
+  font-size: 3.12rem;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: -0.45px;
+}
+
+.h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+}
+
+.h3 {
+  font-size: 2rem;
+  line-height: 36px;
+  letter-spacing: -0.29px;
+}
+
+.body1,
+.body2 {
+  font-family: 'Public Sans', sans-serif;
+}
+
+.body1 {
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+.body2 {
+  font-size: 0.93rem;
+  line-height: 30px;
+}
+
+/* .text-area{} */
+/* .text-area:focus{} */
+
+/* .input{} */
+/* .input:focus{} */
+
+.button,
+.li {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 0.75rem;
+  line-height: 14.1px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.li {
+  margin-right: 43px;
+  list-style: none;
+}
+
+.button {
+  margin: auto 0;
+}
+
+.primary-btn,
+.secondary-btn {
+  font-size: 0.75rem;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+.primary-btn {
+  background-color: var(--dark-blue);
+  width: 12.5rem;
+  height: 3rem;
+
+  color: #ffffff;
+}
+
+.primary-btn:hover {
+  background-color: var(--slightly-cyan);
+}
+
+.li,
+.primary-btn:hover,
+.secondary-btn:hover {
+  cursor: pointer;
+}
+
+.secondary-btn {
+  display: flex;
+  width: 12rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #33323d;
+}
+
+.secondary-btn:hover {
+  background-color: var(--grayish-dark-blue);
+  color: #ffffff;
+}
+
+/* .secondary-btn-send{} */
+
+/* .secondary-btn-send:hover{} */

@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  margin-bottom: 94px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-site ul {
+  display: flex;
+  justify-content: center;
+}

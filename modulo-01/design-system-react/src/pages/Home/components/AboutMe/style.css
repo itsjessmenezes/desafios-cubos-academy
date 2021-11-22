@@ -1,0 +1,43 @@
+.about-me {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  justify-content: space-between;
+  margin-bottom: 12.5rem;
+}
+
+.info-about-me,
+.img-profile {
+  width: 50%;
+}
+
+.img-profile img {
+  width: 33.75rem;
+  height: 600px;
+}
+
+.info-about-me {
+  width: 430px;
+}
+
+.divisor-about-me {
+  background: #33323d;
+  height: 1px;
+  margin: auto;
+  opacity: 0.15;
+}
+
+.info-about-me h2 {
+  margin: 3.18rem 0 1.75rem 0;
+}
+
+.info-about-me p {
+  margin-bottom: 1.5rem;
+  color: #33323d;
+  opacity: 0.8;
+}
+
+.btn-portfolio {
+  margin: auto;
+  margin-bottom: 2.87rem;
+}
